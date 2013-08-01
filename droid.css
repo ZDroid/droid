@@ -1,0 +1,102 @@
+/*! Droid drawn 100% in CSS | MIT license */
+
+/*
+ * Set up
+ */
+ 
+/* Set base body proporites */
+body {
+  padding: 5%;
+  margin: 0;
+}
+
+/* Set droid color */
+.antenna-one,
+.antenna-two,
+.head,
+.body,
+.arm-one,
+.arm-two,
+.leg {
+  background: #690;
+}
+
+/* Inlines */
+.inline > div {
+  display: inline-block !important;
+}
+
+/*
+ * Utilities
+ */
+
+/* Left margin */ 
+.left     {margin-left: 50px;}
+.left-lg  {margin-left: 90px;}
+
+/* Inline dividers */
+.space    {width: 100px;}
+.space-sm {width: 20px;}
+
+/*
+ * Things
+ */
+
+/* Antennas */
+.antenna-one,
+.antenna-two {
+  width: 10px;
+  height: 100px;
+  margin-bottom: -50px;
+  border-radius: 5px;
+}
+
+.antenna-one {
+  margin-left: 40px;
+  -webkit-transform: rotate(320deg);
+          transform: rotate(320deg);
+}
+
+.antenna-two {
+  -webkit-transform: rotate(40deg);
+          transform: rotate(40deg);
+}
+
+/* Head */
+.head {
+  width: 200px;
+  height: 100px;
+  margin-bottom: 10px;
+  border-top-right-radius: 90px;
+   border-top-left-radius: 90px;
+}
+
+/* Body */
+.body {
+  width: 200px;
+  height: 200px;
+  margin-bottom: -4px; /* Fix for block dividing */
+  border-bottom-right-radius: 20px;
+   border-bottom-left-radius: 20px;
+}
+
+/* Arms */
+.arm-one,
+.arm-two {
+  width: 40px;
+  height: 150px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+
+.arm-one  {margin-right: 10px;}
+.arm-two  { margin-left: 10px;}
+
+/* Leg(s) */
+
+.leg {
+  width: 50px;
+  height: 80px;
+  border-bottom-right-radius: 25px;
+   border-bottom-left-radius: 25px;
+}
