@@ -31,7 +31,7 @@ body {
  */
 
 /* Left margin */ 
-.left     {margin-left: 50px;}
+.left     {margin-left: 54px;}
 .left-lg  {margin-left: 90px;}
 
 /* Inline dividers */
@@ -66,7 +66,7 @@ body {
 .head {
   width: 200px;
   height: 100px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   border-top-right-radius: 90px;
    border-top-left-radius: 90px;
 }
