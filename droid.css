@@ -4,7 +4,7 @@
  * Set up
  */
  
-/* Set base body proporites */
+/* Set base proporites */
 body {
   padding: 5%;
   margin: 0;
@@ -18,7 +18,7 @@ body {
 .arm-one,
 .arm-two,
 .leg {
-  background: #690;
+  background: #9c0;
 }
 
 /* Inlines */
@@ -46,7 +46,7 @@ body {
 .antenna-one,
 .antenna-two {
   width: 10px;
-  height: 100px;
+  height: 80px;
   margin-bottom: -50px;
   border-radius: 5px;
 }
@@ -96,7 +96,7 @@ body {
 
 .leg {
   width: 50px;
-  height: 80px;
+  height: 60px;
   border-bottom-right-radius: 25px;
    border-bottom-left-radius: 25px;
 }
