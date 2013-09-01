@@ -18,7 +18,7 @@ body {
 .arm-one,
 .arm-two,
 .leg {
-  background: #9c0;
+  background: #9c0; /* Change value to #690 for dark variant */
 }
 
 /* Inlines */
@@ -30,7 +30,7 @@ body {
  * Utilities
  */
 
-/* Left margin */ 
+/* Add left margin */
 .left     {margin-left: 54px;}
 .left-lg  {margin-left: 90px;}
 
