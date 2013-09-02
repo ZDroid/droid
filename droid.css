@@ -18,25 +18,16 @@ body {
 .arm-one,
 .arm-two,
 .leg {
-  background: #9c0; /* Change value to #690 for dark variant */
+  background-color: #9c0; /* Change to #690 for dark variant */
 }
 
 /* Inlines */
+.inline:first-child {margin-left: 54px;}
+.inline:last-child  {margin-left: 90px;}
+
 .inline > div {
   display: inline-block !important;
 }
-
-/*
- * Utilities
- */
-
-/* Add left margin */
-.left     {margin-left: 54px;}
-.left-lg  {margin-left: 90px;}
-
-/* Inline dividers */
-.space-sm {width: 20px;}
-.space    {width: 100px;}
 
 /*
  * Things
@@ -52,7 +43,8 @@ body {
 }
 
 .antenna-one {
-  margin-left: 40px;
+  margin-right: 100px;
+   margin-left: 40px;
   -webkit-transform: rotate(320deg);
           transform: rotate(320deg);
 }
@@ -66,7 +58,8 @@ body {
 .head {
   width: 200px;
   height: 100px;
-  margin-bottom: 5px;
+  margin-left: 54px;
+  margin-bottom: 10px;
   border-top-right-radius: 90px;
    border-top-left-radius: 90px;
 }
@@ -89,14 +82,15 @@ body {
   border-radius: 20px;
 }
 
-.arm-one  {margin-right: 10px;}
-.arm-two  { margin-left: 10px;}
+.arm-one {margin-right: 10px;}
+.arm-two { margin-left: 10px;}
 
-/* Leg(s) */
-
+/* Legs */
 .leg {
   width: 50px;
   height: 60px;
   border-bottom-right-radius: 25px;
    border-bottom-left-radius: 25px;
 }
+
+.leg:first-child {margin-right: 25px;}
