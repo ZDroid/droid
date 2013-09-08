@@ -11,20 +11,15 @@ body {
 }
 
 /* Set droid color */
-.antenna-one,
-.antenna-two,
+.antenna,
 .head,
 .body,
-.arm-one,
-.arm-two,
+.arm,
 .leg {
   background-color: #9c0; /* Change to #690 for dark variant */
 }
 
-/* Inlines */
-.inline:first-child {margin-left: 54px;}
-.inline:last-child  {margin-left: 90px;}
-
+/* Inline wrapper for droid things */
 .inline > div {display: inline-block !important;}
 
 /*
@@ -32,22 +27,21 @@ body {
  */
 
 /* Antennas */
-.antenna-one,
-.antenna-two {
+.antenna {
   width: 10px;
   height: 80px;
   margin-bottom: -50px;
   border-radius: 5px;
 }
 
-.antenna-one {
+.antenna:first-child {
   margin-right: 100px;
-   margin-left: 40px;
+   margin-left: 90px;
   -webkit-transform: rotate(320deg);
           transform: rotate(320deg);
 }
 
-.antenna-two {
+.antenna:last-child {
   -webkit-transform: rotate(40deg);
           transform: rotate(40deg);
 }
@@ -57,9 +51,9 @@ body {
   width: 200px;
   height: 100px;
   margin-bottom: 10px;
-    margin-left: 54px;
+  margin-left: 50px;
   border-top-right-radius: 90px;
-   border-top-left-radius: 90px;
+  border-top-left-radius: 90px;
 }
 
 /* Body */
@@ -68,27 +62,29 @@ body {
   height: 200px;
   margin-bottom: -4px; /* Fix for block dividing */
   border-bottom-right-radius: 20px;
-   border-bottom-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 /* Arms */
-.arm-one,
-.arm-two {
+.arm {
   width: 40px;
   height: 150px;
-  margin-bottom: 50px;
+  margin-bottom: 46px;
   border-radius: 20px;
 }
 
-.arm-one {margin-right: 10px;}
-.arm-two { margin-left: 10px;}
+.arm:first-child {margin-right: 6px;}
+.arm:last-child  {margin-left: 6px;}
 
 /* Legs */
 .leg {
   width: 50px;
   height: 60px;
   border-bottom-right-radius: 25px;
-   border-bottom-left-radius: 25px;
+  border-bottom-left-radius: 25px;
 }
 
-.leg:first-child {margin-right: 25px;}
+.leg:first-child {
+  margin-right: 25px;
+  margin-left: 86px;
+}
