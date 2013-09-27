@@ -36,7 +36,7 @@ div > div {display: inline-block !important;}
 
 .antenna:first-child {
   margin-right: 100px;
-   margin-left: 90px;
+  margin-left: 90px;
   -webkit-transform: rotate(330deg);
           transform: rotate(330deg);
 }
