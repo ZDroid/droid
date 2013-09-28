@@ -59,7 +59,7 @@ div > div {display: inline-block !important;}
 .torso {
   width: 200px;
   height: 200px;
-  margin-bottom: -5px; /* Fix for block dividing */
+  margin-bottom: -4px; /* Fix for block dividing */
   border-radius: 0 0 20px 20px;
 }
 
@@ -67,7 +67,7 @@ div > div {display: inline-block !important;}
 .arm {
   width: 40px;
   height: 145px;
-  margin-bottom: 50px;
+  margin-bottom: 51px;
   border-radius: 20px;
 }
 
@@ -76,12 +76,12 @@ div > div {display: inline-block !important;}
 
 /* Legs */
 .leg {
-  width: 50px;
+  width: 45px;
   height: 60px;
-  border-radius: 0 0 25px 25px;
+  border-radius: 0 0 22.5px 22.5px;
 }
 
 .leg:first-child {
   margin-right: 25px;
-  margin-left: 86px;
+  margin-left: 91px;
 }
