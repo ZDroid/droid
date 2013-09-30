@@ -59,7 +59,7 @@ div > div {display: inline-block !important;}
 .torso {
   width: 200px;
   height: 200px;
-  margin-bottom: -4px; /* Fix for block dividing */
+  margin-bottom: -4px; /* Remove block spacing */
   border-radius: 0 0 20px 20px;
 }
 
