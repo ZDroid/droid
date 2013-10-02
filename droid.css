@@ -19,11 +19,11 @@ body {
   background-color: #9c0; /* Change to #690 for dark variant */
 }
 
-/* Inline wrapper for droid things */
+/* Inline wrapper for body parts */
 div > div {display: inline-block !important;}
 
 /*
- * Things
+ * Body parts
  */
 
 /* Antennas */
@@ -35,8 +35,8 @@ div > div {display: inline-block !important;}
 }
 
 .antenna:first-child {
-  margin-right: 100px;
-  margin-left: 90px;
+  margin-right: 105px;
+  margin-left: 85px;
   -webkit-transform: rotate(330deg);
           transform: rotate(330deg);
 }
