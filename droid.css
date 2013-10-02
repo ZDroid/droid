@@ -4,13 +4,13 @@
  * Set up
  */
  
-/* Set base proporites */
+/* Set base properties */
 body {
   padding: 3%;
   margin: 0;
 }
 
-/* Set droid color */
+/* Set base color */
 .antenna,
 .head,
 .torso,
