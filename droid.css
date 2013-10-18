@@ -19,11 +19,11 @@ body {
   background-color: #9c0; /* Change to #690 for dark variant */
 }
 
-/* Inline wrapper for body parts */
+/* Inline wrapper for droid parts */
 div > div {display: inline-block !important;}
 
 /*
- * Body parts
+ * Droid parts
  */
 
 /* Antennas */
