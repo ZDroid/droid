@@ -37,13 +37,13 @@ div > div {display: inline-block !important;}
 .antenna:first-child {
   margin-right: 105px;
   margin-left: 85px;
-  -webkit-transform: rotate(330deg);
-          transform: rotate(330deg);
+  -webkit-transform: rotate(325deg);
+          transform: rotate(325deg);
 }
 
 .antenna:last-child {
-  -webkit-transform: rotate(30deg);
-          transform: rotate(30deg);
+  -webkit-transform: rotate(35deg);
+          transform: rotate(35deg);
 }
 
 /* Head */
