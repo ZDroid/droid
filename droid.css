@@ -11,11 +11,11 @@ body {
 }
 
 /* Set base color */
-.droid .antenna,
-.droid .head,
-.droid .torso,
-.droid .arm,
-.droid .leg {
+.droid-antenna,
+.droid-head,
+.droid-torso,
+.droid-arm,
+.droid-leg {
   background-color: #9c0; /* Change to #690 for dark variant */
 }
 
@@ -27,27 +27,27 @@ body {
  */
 
 /* Antennas */
-.droid .antenna {
+.droid-antenna {
   width: 10px;
   height: 75px;
   margin-bottom: -50px;
   border-radius: 5px;
 }
 
-.droid .antenna:first-child {
+.droid-antenna:first-child {
   margin-right: 105px;
   margin-left: 85px;
   -webkit-transform: rotate(325deg);
           transform: rotate(325deg);
 }
 
-.droid .antenna:last-child {
+.droid-antenna:last-child {
   -webkit-transform: rotate(35deg);
           transform: rotate(35deg);
 }
 
 /* Head */
-.droid .head {
+.droid-head {
   width: 200px;
   height: 100px;
   margin-bottom: 10px;
@@ -56,7 +56,7 @@ body {
 }
 
 /* Torso */
-.droid .torso {
+.droid-torso {
   width: 200px;
   height: 200px;
   margin-bottom: -4px; /* Remove block spacing */
@@ -64,24 +64,24 @@ body {
 }
 
 /* Arms */
-.droid .arm {
+.droid-arm {
   width: 40px;
   height: 145px;
   margin-bottom: 51px;
   border-radius: 20px;
 }
 
-.droid .arm:first-child {margin-right: 6px;}
-.droid .arm:last-child  {margin-left: 6px;}
+.droid-arm:first-child {margin-right: 6px;}
+.droid-arm:last-child  {margin-left: 6px;}
 
 /* Legs */
-.droid .leg {
+.droid-leg {
   width: 45px;
   height: 65px;
   border-radius: 0 0 22.5px 22.5px;
 }
 
-.droid .leg:first-child {
+.droid-leg:first-child {
   margin-right: 25px;
   margin-left: 91px;
 }
