@@ -4,10 +4,9 @@
  * Set up
  */
 
-/* Set body properties */
-body {
+/* Set container properties */
+.droid {
   padding: 2%;
-  margin: 0;
 }
 
 /* Set base color */
