@@ -19,7 +19,7 @@
 }
 
 /* Inline wrapper for droid parts */
-.droid-inline div {display: inline-block;}
+.droid-inline > div {display: inline-block;}
 
 /*
  * Droid parts
