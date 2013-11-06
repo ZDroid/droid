@@ -58,7 +58,7 @@
 .droid-torso {
   width: 200px;
   height: 200px;
-  margin-bottom: -4px; /* Remove block spacing */
+  margin-bottom: -4px; /* Remove redundant gap */
   border-radius: 0 0 20px 20px;
 }
 
