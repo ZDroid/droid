@@ -18,10 +18,10 @@
   background-color: #9c0; /* Change to #690 for dark variant */
 }
 
-.droid-eye { background-color: #fff; }
+.droid-eye              { background-color: #fff; }
 
 /* Inline wrapper for droid parts */
-.droid-inline > div    { display: inline-block; }
+.droid-inline > div     { display: inline-block; }
 
 /*
  * Droid parts
@@ -47,15 +47,6 @@
           transform: rotate(35deg);
 }
 
-/* Head */
-.droid-head {
-  width: 200px;
-  height: 100px;
-  margin-bottom: 10px;
-  margin-left: 50px;
-  border-radius: 90px 90px 0 0;
-}
-
 /* Eyes */
 .droid-eye {
   width: 20px;
@@ -67,6 +58,15 @@
 .droid-eye:first-child {
   margin-right: 50px;
   margin-left: 105px;
+}
+
+/* Head */
+.droid-head {
+  width: 200px;
+  height: 100px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  border-radius: 90px 90px 0 0;
 }
 
 /* Torso */
@@ -85,8 +85,8 @@
   border-radius: 20px;
 }
 
-.droid-arm:first-child { margin-right: 6px; }
-.droid-arm:last-child  { margin-left: 6px; }
+.droid-arm:first-child  { margin-right: 6px; }
+.droid-arm:last-child   { margin-left: 6px; }
 
 /* Legs */
 .droid-leg {
