@@ -5,6 +5,7 @@
 This is my CSS experiment, droid. It's tested on Chrome, Chromium, Firefox and
 Opera.
 
-Copy `droid.html` and `droid.css` to the web site. Enjoy.
+Copy `droid.html` and `droid.css` to the web site. You can also put a droid
+into another HTML file. Enjoy.
 
 Licensed under the MIT License.
