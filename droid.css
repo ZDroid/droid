@@ -18,10 +18,14 @@
   background-color: #9c0; /* Change to #690 for dark variant */
 }
 
-.droid-eye              { background-color: #fff; }
+.droid-eye {
+  background-color: #fff;
+}
 
 /* Inline wrapper for droid parts */
-.droid-inline > div     { display: inline-block; }
+.droid-inline > div {
+  display: inline-block;
+}
 
 /*
  * Droid parts
@@ -85,8 +89,13 @@
   border-radius: 20px;
 }
 
-.droid-arm:first-child  { margin-right: 6px; }
-.droid-arm:last-child   { margin-left: 6px; }
+.droid-arm:first-child {
+  margin-right: 6px;
+}
+
+.droid-arm:last-child {
+  margin-left: 6px;
+}
 
 /* Legs */
 .droid-leg {
