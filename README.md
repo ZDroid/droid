@@ -1,6 +1,6 @@
 # Droid
 
-**Droid drawn 100% in CSS**
+> Droid drawn 100% in CSS
 
 This is my CSS experiment, droid. It's tested in Chrome, Chromium, Firefox and
 Opera.
