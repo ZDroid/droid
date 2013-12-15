@@ -1,0 +1,17 @@
+{
+  "name": "droid",
+  "version": "1.0.0",
+  "author": "Zlatan Vasović",
+  "description": "Droid drawn 100% in CSS",
+  "homepage": "https://github.com/ZDroid/droid",
+  "main": [
+    "droid.css",
+    "droid.html"
+  ],
+  "keywords": [
+    "css",
+    "droid",
+    "experiment"
+  ],
+  "license": "MIT"
+}
