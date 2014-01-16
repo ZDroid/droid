@@ -8,7 +8,7 @@ Opera.
 Copy `droid.html` and `droid.css` to the web site or put the droid into another
 HTML file. Enjoy.
 
-You can also install it with Bower: `bower install droid`.
+You can also download it with Bower: `bower install droid`.
 
 ## License
 
