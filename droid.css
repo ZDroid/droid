@@ -3,38 +3,50 @@
  * Licensed under the MIT License.
  */
 
-/*
- * Set up
+/**
+ * Base
  */
 
-/* Set container properties */
+/*
+ * Container
+ */
+
 .droid {
   padding: 2%;
 }
 
-/* Set base color */
+/*
+ * Color
+ */
+
 .droid-antenna,
 .droid-head,
 .droid-torso,
 .droid-arm,
 .droid-leg {
-  background-color: #9c0; /* Change to #690 for dark variant */
+  background-color: #9c0; /* Change to `#690` for dark variant */
 }
 
 .droid-eye {
   background-color: #fff;
 }
 
-/* Inline wrapper for droid parts */
+/*
+ * Inline wrapper
+ */
+
 .droid-inline > div {
   display: inline-block;
 }
 
-/*
+/**
  * Droid parts
  */
 
-/* Antennas */
+/*
+ * Antennas
+ */
+
 .droid-antenna {
   width: 10px;
   height: 75px;
@@ -54,7 +66,10 @@
           transform: rotate(35deg);
 }
 
-/* Eyes */
+/*
+ * Eyes
+ */
+
 .droid-eye {
   width: 20px;
   height: 20px;
@@ -67,7 +82,10 @@
   margin-left: 110px;
 }
 
-/* Head */
+/*
+ * Head
+ */
+
 .droid-head {
   width: 200px;
   height: 100px;
@@ -76,7 +94,10 @@
   border-radius: 90px 90px 0 0;
 }
 
-/* Torso */
+/*
+ * Torso
+ */
+
 .droid-torso {
   width: 200px;
   height: 200px;
@@ -84,7 +105,10 @@
   border-radius: 0 0 20px 20px;
 }
 
-/* Arms */
+/*
+ * Arms
+ */
+
 .droid-arm {
   width: 40px;
   height: 145px;
@@ -100,7 +124,10 @@
   margin-left: 6px;
 }
 
-/* Legs */
+/*
+ * Legs
+ */
+
 .droid-leg {
   width: 45px;
   height: 65px;
