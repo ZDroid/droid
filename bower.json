@@ -16,7 +16,5 @@
     "droid.css",
     "index.html"
   ],
-  "ignore": [
-    "**/.*"
-  ]
+  "ignore": "**/.*"
 }
