@@ -1,11 +1,10 @@
 # Droid
 
-> Droid drawn 100% in CSS
+> Droid completely drawn in CSS
 
-This is my CSS experiment, droid. It's tested in Chrome, Chromium, Firefox and
-Opera.
+This is my CSS experiment, droid. It's tested in Chrome, Firefox and Opera.
 
-Copy `droid.html` and `droid.css` to the web site or put the droid into another
+Copy `index.html` and `droid.css` to your web site or put the droid into another
 HTML file. Enjoy.
 
 You can also download it with Bower: `bower install droid`.

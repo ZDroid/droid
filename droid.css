@@ -1,5 +1,5 @@
 /*!
- * Droid v1.0.5 (http://git.io/droid)
+ * Droid v1.0.6 (http://git.io/droid)
  * Licensed under the MIT License.
  */
 
@@ -24,7 +24,7 @@
 .droid-torso,
 .droid-arm,
 .droid-leg {
-  background-color: #9c0; /* Change to `#690` for dark variant */
+  background-color: #a4c639; /* Change the color to suit your preferences */
 }
 
 .droid-eye {
@@ -57,13 +57,13 @@
 .droid-antenna:first-child {
   margin-right: 105px;
   margin-left: 85px;
-  -webkit-transform: rotate(325deg);
-          transform: rotate(325deg);
+  -webkit-transform: rotate(327.5deg);
+          transform: rotate(327.5deg);
 }
 
 .droid-antenna:last-child {
-  -webkit-transform: rotate(35deg);
-          transform: rotate(35deg);
+  -webkit-transform: rotate(32.5deg);
+          transform: rotate(32.5deg);
 }
 
 /*
