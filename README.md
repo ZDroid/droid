@@ -11,4 +11,4 @@ You can also download it with Bower: `bower install droid`.
 
 ## License
 
-MIT &copy; [Zlatan Vasović](https://github.com/ZDroid)
+MIT &copy; [Zlatan Vasović](https://github.com/zdroid)
